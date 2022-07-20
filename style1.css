@@ -96,10 +96,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-#last-link{
+#top-link{
     background-color: #DD0000;
 }
-
 .blogs{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -109,17 +108,33 @@ body{
 
 .blog{
     width: 312px;
-    height: 362px;
+    height: 220px;
     border: 1px solid rgb(192, 229, 245);
     border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(1,1fr);
 }
+.blog-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-image img{
+    margin-top: 20px;
+    width: 35%;
+    height: 70%;
+
+}
+.blog-image h1{
+    font-size: 15px;
+    padding: 10px;
+}
 .blog-info{
    padding: 20px;
+   text-align: center;
 }
 .blog-info h2{
-    font-size: 15px;
+    font-size: 18px;
 }
 .blog-info button{
     width: 100px;
@@ -130,6 +145,7 @@ body{
 }
 .blog-duration{
     margin-top: 30px;
+    color: rgb(25, 160, 115);
 }
 .blog-duration p span{
     margin-left: 10px;
