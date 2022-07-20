@@ -302,7 +302,7 @@ footer{
     }
 
     .first-page{
-        width: 90%;
+        width: 80%;
         margin-right: 50px;
         height: 100%;
         margin: 0 auto;
@@ -311,7 +311,11 @@ footer{
     }
 
     .banner-image img{
-        width: 70%;
+        /* width: 70%; */
+    
+      width: 440px;
+            height: 513px;
+        
         
      }
 
