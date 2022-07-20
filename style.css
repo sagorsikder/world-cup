@@ -48,6 +48,10 @@ body{
     color: #FFFFFF;
     font-size: 20px;
 }
+
+
+
+
 .watch-btn button i{
    margin-left: 10px;
 }
@@ -61,6 +65,29 @@ body{
     width: 581px;
     height: 613px;
 }
+
+/* Animation setup */
+
+.watch-btn button:hover{
+    height: 56px;
+    width: 187px;
+    border-radius: 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 20px;
+
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+
+  
+  @keyframes example {
+    
+    100% {background-color: aquamarine; color: #161616; margin-left:100px;}
+  }
+
+
 /* header section end */
 
 /* main section start */
